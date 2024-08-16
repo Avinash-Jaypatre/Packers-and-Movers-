@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+   <!--Bootstrap Link-->
+   <link rel="Stylesheet" href="bootstrap.min.css">
+   <!--Java Script Link-->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+   <!--Google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+
+    <!--CSS Link-->
+    <link rel="Stylesheet" href="{{url_for('static', filename='css/Style.css')}}">
+    <link rel="Stylesheet" href="{{url_for('static', filename='bootstrap/bootstrap.min.css')}}">
+
+  </head>
+<body>
+  {% include 'Navbar.html'%}
+  <div class=" abc container-fluid py-3">
+    <div class="row justify-content-center py-5">
+      <div class="col-md-8">
+        <div class="card">
+          <div class=" xyz card-header text-center ">
+            Contact Us
+          </div>
+          <div class=" xyz card-body">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" name="name" placeholder="Enter your name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" name="email" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" name="message" rows="5" placeholder="Enter your message"></textarea>
+              </div>
+              <div class="text-center py-4">
+              <button type="submit" class="btn btn-outline-info">Submit</button>
+            </div>  
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT-US</title>
+    <!--Bootstrap Link-->
+    <link rel="Stylesheet" href="bootstrap.min.css">
+    <!--Java Script Link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--Google font link-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   
+
+    <!--CSS Link-->
+     <!--CSS Link-->
+     <link rel="Stylesheet" href="{{url_for('static', filename='css/Style.css')}}">
+     <link rel="Stylesheet" href="{{url_for('static', filename='bootstrap/bootstrap.min.css')}}">
+
+</head>
+<body>
+  {% include 'Navbar.html'%}
+  <div class ="container-fluid">
+    <div class ="row rounded-4 border border-3 border border-dark py-5 mt-3">
+        <div class="">
+            <h1 class="text-center py-5">ABOUT-US <br>______ </h1>
+            <p class="jay text-center">
+                The Packers Movers (thepackersmovers.com) is one of the India’s leading reputed online moving companies booking platforms.This website is no less than an interface where people and moving companies can connect with each other and get a good deal at cost-effective prices on the foundation of trust. The movers and packers companies listed here offer a customized range of relocation services for the safe movement of household and corporate goods.
+
+We at thepackersmovers.com is a one-stop destination to meet all your shifting needs relating to household, commercial or vehicle relocation. As we commit a safe, secure, and a hassle-free relocation experience, we have associated with the best and professional relocation service providers across India with good years of experience in the logistics sector. Every packing and moving company listed on our website is verified and thoroughly background checked before their profiles are shared with people.
+
+The listed packing and moving companies on this directory are authorized and boast a group of experienced and talented experts to perform moves with the most recent instruments and types of gear.   </p>
+        </div>
+    </div>
+  </div>
+    
+</body>
+</html>

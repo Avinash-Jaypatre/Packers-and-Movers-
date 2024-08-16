@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home service</title>
+     <!--Bootstrap Link-->
+     <link rel="Stylesheet" href="bootstrap.min.css">
+     <!--Java Script Link-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+     <!--Google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+ 
+      <!--CSS Link-->
+      <link rel="Stylesheet" href="{{url_for('static', filename='css/Style.css')}}">
+      <link rel="Stylesheet" href="{{url_for('static', filename='bootstrap/bootstrap.min.css')}}">
+ 
+
+
+</head>
+<body>
+  {% include 'Navbar.html'%}
+    <div class="container-fluid">
+        <div class="navbarbgg row text-light">
+            <div class="text-center py-5 ">
+                <h3 class="mt-5">Bike Transport Services</h3>
+                <h6 class="jay mx-5">Shifting a two-wheeler like a bike from one city to 
+                    another is not as easy as it appears. People need expert assistance 
+                    from the bike transporters in India to relocate their bike from one 
+                    city to another in a hassle-free manner. Using the best packing 
+                    materials and equipments to disassemble the bike for easy
+                     transportation, the companies offering the services of bike transport
+                      in India make this procedure a safe and smooth procedure for their 
+                      esteemed customers. Now, you don’t have to worry about your 
+                      two-wheeler as it will be delivered to the new location in a
+                       safe and timely manner. Hire best bike transportation companies in
+                        India now from thepackersmovers.com and be prepared to have a '
+                        wonderful bike moving experience!!!</div>
+        </div>
+    
+    </div>
+    <div class="container-fluid py-5 bg-dark rounded-4 my-5">
+      <form action="" method ="post">
+        <div class="row">
+            <div class="col-md-6 mt-2">
+                <input type="text" class="form-control" name="username" placeholder="Name">
+              </div>
+              <div class="col-md-6 mt-2">
+                <input type="text" class="form-control" name="Email" placeholder="Email">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mt-2">
+                <input type="text" class="form-control" name="Mobilenumber" placeholder="Mobile Number">
+              </div>
+              <div class="col-md-6 mt-2">
+                <input type="text" class="form-control" name="relocationdate" placeholder="Date of Relocation">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mt-2">
+                <input type="text" class="form-control" name="movetype" placeholder="Move Type">
+              </div>
+              <div class="col-md-6 mt-2">
+                <input type="text" class="form-control" name="movesize" placeholder="Move Size">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mt-2">
+                <input type="text" class="form-control" name="relocationfrom" placeholder="Relocation from">
+              </div>
+              <div class="col-md-6 mt-2">
+                <input type="text" class="form-control" name="relocationto" placeholder="Relocation To">
+              </div>
+              <div class="row">
+                <input type="text" class="form-control mx-2 mt-3 py-2" name="mentionitem" placeholder="Please mention all item you would like to move">
+
+              </div>
+              <div class="row">
+                <div class="col-md-4 offset-md-4 text-center">
+                  <!-- <button type="submit" class="btn btn-outline-info mt-4 ">Submit</button> -->
+                  <input type="submit" name="button" value="Submit" class="btn btn-success">
+               </div>
+               <div class="my-3">
+                {{message}}
+               </div>
+              </div>
+        </div>
+      </form>
+    </div>
+    <div class="container-fluid">
+        <div class="row bg-light">
+            <div class="text-center mt-5 py-5">
+                <h4>How does Thepackersmovers Work?</h4>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="static/image/icons8-notebook-80.png" alt="Banner Image" height="60%" width="40%">
+                <h6 class="text-dark">Free Moving Quotes</h6>
+                <h6 class="">Get moving quotes for free from trusted and verified packers and movers 
+                    matched with your shifting needs</h6>
+            </div>
+            <div class="col-md-4  text-center">
+                <img src="static/image/icons8-compare-100.png" alt="Banner Image" height="60%" width="40%">
+                <h6 class="text-dark">Free Moving Quotes</h6>
+                <h6 class="">Get moving quotes for free from trusted and verified packers and movers 
+                    matched with your shifting needs</h6>
+            </div>
+            <div class="col-md-4 text-center">
+                <img src="static/image/icons8-truck-100.png" alt="Banner Image" height="60%" width="40%">
+                <h6 class="text-dark">Free Moving Quotes</h6>
+                <h6 class="">Get moving quotes for free from trusted and verified packers and movers 
+                    matched with your shifting needs</h6>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="row py-5">
+            <div class="">
+              <h4 class="jay">Bike Transport Services in India</h4> 
+              <p>Bike transportation in India has become a popular method of getting your two-wheeler
+                 moved to any part of the country in a hassle-free manner. Various bike transport service 
+                 <br>
+                 companies have sprang up in the country in the recent years owing to a great demand of bike
+                  transportation by people in India. Nowadays, people mostly prefer to relocate their bike by
+                   hiring a professional and experienced bike shifting company for their bike transportation
+                    rather than riding it on their own.
+                <br>
+                Bike parcel services in India is a modern technique of two-wheeler transportation
+                 in which the manpower of the company will pack your bike with the right packing supplies 
+                 to protect it from scratches and dirt and then load it in the moving truck selected by the 
+                 customer for timely delivery at the new destination. Such companies are familiar with the 
+                 routes and roadways in the country and have the experience to timely deliver the vehicles of 
+                 their customers at the required locations. The moving trucks are well-equipped with the
+                  facilities to protect the vehicles during the process of transportation.
+                
+                People can either hire exclusive bike transport services in India or packers and 
+                movers in India which offer bike relocation services in Delhi, Pune, Mumbai, Bangalore,
+                 Kolkata, etc. The services offered by them are cost-effective and promise to provide utmost
+                  customer satisfaction at all levels.</p> 
+                <h4 class="jay">
+                    Bike Transporters Near Me – The Hiring Guide
+                </h4>
+                <p>Hiring bike packers and movers in India for your bike transportation to a long distance 
+                is as complicated as hiring packers and movers for your household shifting. The factor of 
+                safety is one of the major concerns and therefore, recruiting bike transporters that are 
+                experienced and licensed for such a job is the right thing to do. <br>Professional bike carrier
+                 companies have experienced and skilled staff to perform every activity of bike relocation in 
+                 a well-planned manner to ensure full safety of your vehicles during the transportation.
+
+                    There might be hundreds of bike parcel service providers near your location, but identifying 
+                    and hiring the right one requires skills and research. You definitely don’t want to compromise the
+                     safety of your vehicle and aim to hire a bike transport company that will be the best match for your bike relocation.
+                      Here are some tips which can help you hire the best bike shifting service in India -</p>
+            
+                      <li>Valid official documents
+                        <p>A genuine and reputed bike transport services will always have essential official documents
+                             such as company registration certificate, GST license, ID proof of the owners to produce in
+                              front of their potential customers to validate their legal existence in the industry.
+                             You can ask for such documents before hiring the for your bike shifting.</p>
+                      </li>
+                      <li>Understand the services
+                        <p>Every customer has different requirements for their bike relocation. Hence, 
+                            it is necessary that you should ask about the services offered by your shortlisted bike
+                             transporter in detail and check whether it provides your preferred bike relocation service or not.
+                              Also, discuss the process of 
+                            bike shifting with them in detail to avoid any last-minute confusions</p>
+                      </li>
+                      <li>Experience of the company and its employees
+                        <p>A reputable and reliable bike carrier shifting company has relevant years of experience
+                             in the industry and understands the pros and cons of this procedure. It only employ people 
+                             that have experience of bike shifting between cities and know the skills and techniques of 
+                             safe bike transportation. Soo, you should always hire a 
+                            company that is experienced and also has professional and skilled team members.</p>
+                      </li>
+                      
+                    </div>
+                    </div>
+        </div>
+
+    </div>
+
+     <!--Packages  section End-->
+     <div class="container-fluid">
+        <div class="row">
+          <div class="mt-5 bg-light py-5">
+            <div class="py-5 text-center">
+            <h1>We can solve your moving problem<br>
+              with comfort</h1>
+              <div class="row">
+                <div class="col-md-4 offset-md-4 text-center">
+                  <a class="nav-link" href="/constactus"><button type="submit" class="btn btn-outline-success mt-4 ">Contact-Us</button></a>
+                 
+               </div>
+              </div>
+            </div>
+          </div>
+          {% include 'footer.html'%}
+          </div>
+        </div>
+
+      </div>
+
+    
+</body>
+</html>
