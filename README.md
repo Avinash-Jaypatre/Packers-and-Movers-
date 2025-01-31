@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-The **Packers and Movers Website** is an efficient, user-friendly platform that allows customers to easily book and manage their moving services. The website provides features such as quote requests, shipment tracking, and scheduling moves. It is developed using **JSP**, **JDBC**, **MySQL**, **HTML**, **CSS**, and **Bootstrap**, ensuring a seamless and responsive user experience.
+The **Packers and Movers Website** is an efficient, user-friendly platform that allows customers to easily book and manage their moving services. The website provides features such as quote requests, shipment tracking, and scheduling moves. It is developed using **Python**, **MySQL**, **HTML**, **CSS**, and **Bootstrap**, ensuring a seamless and responsive user experience.
 
 ---
 
@@ -18,9 +18,9 @@ The **Packers and Movers Website** is an efficient, user-friendly platform that 
 ## Technologies Used
 
 - **Frontend**: HTML, CSS, Bootstrap  
-- **Backend**: JSP, JDBC  
+- **Backend**: Python  
 - **Database**: MySQL  
-- **Server**: Apache Tomcat
+- **Server**: Flask
 
 ---
 
